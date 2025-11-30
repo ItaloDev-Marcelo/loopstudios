@@ -4,14 +4,16 @@ import hamburger from '../assets/images/icon-hamburger.svg';
 import { useState } from "react";
 
 export default function NavBar() {
-    const navItems = ['ABOUT', 'CARRERS', 'EVENTS', 'PRODUCTS', 'SUPPORT']
+    const navItems = ['About', 'Carrers', 'Events', 'Products', 'Support']
     const [navTab, setNavTab] = useState(false)
     return  (
-        <nav className={`bg-black h-screen text-white p-4 `}>
-             <div className='flex flex-row justify-between items-center mt-2.5'><a href='index.html' className='font-bold text-2xl'>loopstudios</a>
-             <button onClick={() => setNavTab(!navTab)}>{navTab ? <img src={hamburger}/>  : <img src={close} />}</button>
+        <nav className={`${navTab ? 'bg-transparent text-black   lg:px-14 lg:pt-20' :
+         'bg-black h-screen lg:h-auto text-white lg:bg-transparent  '} lg:flex lg:items-center lg:justify-between p-4 lg:p-9 `}>
+             <div className='flex flex-row justify-between items-center mt-2.5 px-2 lg:mt-0'>
+                <a href='index.html' className='font-bold text-2xl text-white'>loopstudios</a>
+             <button className='flex lg:hidden' onClick={() => setNavTab(!navTab)}>{navTab ? <img src={hamburger}/>  : <img src={close} />}</button>
              </div>
-             <ul className=" mt-27">
+             <ul className={`${navTab ? 'hidden lg:flex lg:flex-row lg:items-center px-2' : ' mt-27 lg:mt-0 lg:flex lg:flex-row lg:items-center'}`}>
                 {navItems.map((item, index) => (
                     <NavItem navLink={item} key={index} />
                 ))}
