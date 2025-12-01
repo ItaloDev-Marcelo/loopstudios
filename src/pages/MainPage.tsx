@@ -1,12 +1,12 @@
-import Section from '../components/Section'
-import { Images } from '../utils/images.block'
+import Section from '../components/Section';
+import { Images } from '../utils/images.block';
 
 const MainPage = () => {
   return (
     <main className='flex flex-col items-center justify-center md:items-start p-2'>
         <Section style='flex flex-col items-center lg:flex-row justify-center mt-10 lg:mt-[-10em]  xl:mt-25 lg:pl-17 '>
            <figure className='tb:p-7 md:p-9 lg:p-10'>
-               <img src={Images[8]} alt='banner' className=' lg:hidden' />
+               <img src={Images[8]} alt='banner' className='lg:hidden' />
                <img src={Images[9]} alt='banner' className='hidden lg:flex w-[87%]' />
            </figure>
            <div className=' text-black text-center lg:text-left bg-white p-10
