@@ -11,7 +11,7 @@ export default function NavBar() {
          'bg-black h-screen lg:h-auto text-white lg:bg-transparent  '} lg:flex lg:items-center lg:justify-between p-4 lg:p-9 `}>
              <div className='flex flex-row justify-between items-center mt-2.5 px-2 lg:mt-0'>
                 <a href='index.html' className='font-bold text-2xl text-white'>loopstudios</a>
-             <button className='flex lg:hidden' onClick={() => setNavTab(!navTab)}>{navTab ? <img src={hamburger}/>  : <img src={close} />}</button>
+             <button id='btn' className='flex lg:hidden' onClick={() => setNavTab(!navTab)}>{navTab ? <img src={hamburger} className="is-closed"/>  : <img src={close} className='is-open' />}</button>
              </div>
              <ul className={`${navTab ? 'hidden lg:flex lg:flex-row lg:items-center px-2' : ' mt-27 lg:mt-0 lg:flex lg:flex-row lg:items-center'}`}>
                 {navItems.map((item, index) => (
