@@ -1,7 +1,12 @@
-import  NavBar from './Nav/NavBar'
-import HeaderContainer from './header-banner/HeaderContainer'
+import HeaderPage from './pages/headerPage'
+import MainPage from './pages/MainPage'
 function App() {
-   return <HeaderContainer><NavBar/></HeaderContainer>
+   return (
+      <>
+      <HeaderPage/>
+      <MainPage/>
+      </>
+   )
 }
 
 export default App
