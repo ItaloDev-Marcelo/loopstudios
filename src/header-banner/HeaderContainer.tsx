@@ -6,7 +6,7 @@ interface HeaderProps  {
 
 const HeaderContainer = ({children}:HeaderProps) => {
   return (
-    <header>{children}</header>
+    <header className='overflow-hidden'>{children}</header>
   )
 }
 
