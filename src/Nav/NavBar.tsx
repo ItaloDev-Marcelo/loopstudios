@@ -2,10 +2,10 @@ import NavItem from "../components/NavItem"
 import close from '../assets/images/icon-close.svg';
 import hamburger from '../assets/images/icon-hamburger.svg';
 import { useState } from "react";
+import { navItems } from "../utils/Nav.items";
 
 export default function NavBar() {
-    const navItems = ['About', 'Carrers', 'Events', 'Products', 'Support']
-    const [navTab, setNavTab] = useState(false)
+     const [navTab, setNavTab] = useState(false)
     return  (
         <nav className={`${navTab ? 'bg-transparent text-black   lg:px-14 lg:pt-20' :
          'bg-black h-screen lg:h-auto text-white lg:bg-transparent  '} lg:flex lg:items-center lg:justify-between p-4 lg:p-9 xl:p-11 `}>
