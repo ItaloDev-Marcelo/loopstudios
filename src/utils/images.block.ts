@@ -1,7 +1,9 @@
 import MobileCuriosity from '../assets/images/mobile/image-curiosity.jpg';
-import DaskCuriosity from '../assets/images/desktop/image-curiosity.jpg';
+import DeskCuriosity from '../assets/images/desktop/image-curiosity.jpg';
 import MobileDeepEath from '../assets/images/mobile/image-deep-earth.jpg';
 import DeskDeepEath from '../assets/images/desktop/image-deep-earth.jpg';
+import MobileAbove from '../assets/images/mobile/image-from-above.jpg'
+import DeskAbove from '../assets/images/desktop/image-from-above.jpg'
 import Mobilefisheye from '../assets/images/mobile/image-fisheye.jpg';
 import Deskfisheye from '../assets/images/desktop/image-fisheye.jpg';
 import MobileGrid from '../assets/images/mobile/image-grid.jpg';
@@ -17,64 +19,82 @@ import DeskSoccer from '../assets/images/desktop/image-soccer-team.jpg';
 
 
 export const Images = [
-    MobileCuriosity,
-    DaskCuriosity,
     MobileDeepEath,
     DeskDeepEath,
-    Mobilefisheye,
-    Deskfisheye,
-    MobileGrid,
-    DeskGrid,
-    MobileInteractive,
-    DeskInteractive,
+
     MobileNight,
     DeskNight,
+
+    MobileSoccer,
+    DeskSoccer,
+
+    MobileGrid,
+    DeskGrid,
+
+    MobileAbove,
+    DeskAbove,
+
     MobilePocket,
     DeskPocket,
-    MobileSoccer,
-    DeskSoccer 
+
+    MobileCuriosity,
+    DeskCuriosity,
+
+    Mobilefisheye ,
+    Deskfisheye,
+
+    MobileInteractive ,
+    DeskInteractive 
 ]
 
 
-export const ImagesData = [
+export const Data = [
     {
         id: 0,
         mobile:Images[0],
-        desk:Images[1]
+        desk:Images[1],
+        title: 'DEEP EARTH'
     },
      {
         id: 1,
         mobile:Images[2],
-        desk:Images[3]
+        desk:Images[3],
+        title: 'NIGHT ARCADE'
     },
      {
         id: 2,
         mobile:Images[4],
-        desk:Images[5]
+        desk:Images[5],
+        title: 'SOCCER TEAM VR'
     },
      {
         id: 3,
         mobile:Images[6],
-        desk:Images[7]
-    },
-     {
-        id: 4,
-        mobile:Images[8],
-        desk:Images[9]
+        desk:Images[7],
+        title: 'THE GRID'
     },
     {
         id: 5,
-        mobile:Images[10],
-        desk:Images[11]
+        mobile:Images[8],
+        desk:Images[9],
+        title: 'FROM UP ABOVE VR'
     },
     {
         id: 6,
+        mobile:Images[10],
+        desk:Images[11],
+        title: 'POCKET BOREALIS'
+    },
+    {
+        id: 7,
         mobile:Images[12],
-        desk:Images[13]
+        desk:Images[13],
+        title: 'THE CURIOSITY'
     },
     {
         id: 7,
         mobile:Images[14],
-        desk:Images[15]
+        desk:Images[15],
+        title: 'MAKE IT FISHEYE'
     }
 ]
