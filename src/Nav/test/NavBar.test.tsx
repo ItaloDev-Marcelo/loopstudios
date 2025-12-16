@@ -3,7 +3,9 @@ import NavBar from '../NavBar'
 
 
 const renderComponent = () => {
-     render(<NavBar />)
+     const hundleNav = jest.fn()
+     const navTab = false;
+     render(<NavBar hundleNav={hundleNav} navTab={navTab} />)
 }
 
 describe('NavBar', () => {
