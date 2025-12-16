@@ -1,5 +1,4 @@
-
-interface NavProps {navLink: string}
+import type { NavProps } from "../interface/NavProps"
 
 const NavItem = ({navLink}:NavProps) => {
   return <li className='text-2xl  my-7 lg:my-0 lg:text-[1.1em] lg:mx-3.5
