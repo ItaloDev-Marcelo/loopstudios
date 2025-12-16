@@ -1,9 +1,4 @@
-import React from 'react'
-
-interface SectionProps {
-    children: React.ReactNode,
-    style: string
-}
+import type { SectionProps } from "../interface/SectionProps"
 
 const Section = ({children,style}:SectionProps) => {
   return (
