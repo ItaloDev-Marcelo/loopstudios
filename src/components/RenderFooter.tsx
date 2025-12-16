@@ -17,7 +17,7 @@ export const Footer0 = () => {
                {
                 RodapeImages.map((item, index) => (
                      <li key={index} className='px-2'>
-                        <img src={item} alt='social-icon' />
+                        <img src={item} alt='social-icon'  className='hover:opacity-35' />
                      </li>
                 ))
                }
@@ -38,7 +38,7 @@ export const Footer1 = () => {
                {
                 RodapeImages.map((item, index) => (
                      <li key={index} className='px-2'>
-                        <img src={item} alt='social-icon' />
+                        <img src={item} alt='social-icon' className='hover:opacity-35' />
                      </li>
                 ))
                }
