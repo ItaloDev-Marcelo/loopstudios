@@ -1,13 +1,7 @@
-import HeaderPage from './pages/headerPage'
-import MainPage from './pages/MainPage'
-import FooterComp from './pages/Footer'
+import FullPage from './pages/FullPage'
 function App() {
    return (
-      <>
-      <HeaderPage/>
-      <MainPage/>
-      <FooterComp />
-      </>
+      <FullPage />
    )
 }
 
