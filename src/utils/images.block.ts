@@ -21,28 +21,20 @@ import DeskSoccer from '../assets/images/desktop/image-soccer-team.jpg';
 export const Images = [
     MobileDeepEath,
     DeskDeepEath,
-
     MobileNight,
     DeskNight,
-
     MobileSoccer,
     DeskSoccer,
-
     MobileGrid,
     DeskGrid,
-
     MobileAbove,
     DeskAbove,
-
     MobilePocket,
     DeskPocket,
-
     MobileCuriosity,
     DeskCuriosity,
-
     Mobilefisheye ,
     Deskfisheye,
-
     MobileInteractive ,
     DeskInteractive 
 ]
