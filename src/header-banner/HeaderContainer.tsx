@@ -1,12 +1,8 @@
-import React from 'react'
-
-interface HeaderProps  {
-    children : React.ReactNode
-}
+import type { HeaderProps } from "../interface/HeaderProps"
 
 const HeaderContainer = ({children}:HeaderProps) => {
   return (
-    <header className='overflow-hidden'>{children}</header>
+    <header className='overflow-hidden lg:px-4 xl:p-7'>{children}</header>
   )
 }
 
