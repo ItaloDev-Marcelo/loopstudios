@@ -1,12 +1,6 @@
+import type { RenderImageProps } from "../interface/RenderImageProps"
 
-interface RenderImage {
-    mobile: string;
-    desk: string;
-    type: number
-}
-
-
-const RenderImage = ({mobile,desk, type}:RenderImage ) => {
+const RenderImage = ({mobile,desk, type}:RenderImageProps ) => {
      switch (type) {
      case 0:
       return (
