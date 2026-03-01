@@ -19,11 +19,39 @@ header {
 
 
 
-@media (min-width:800px) {
+@media (min-width:700px) {
     header {
     background: url(./assets/images/desktop/image-hero.jpg) no-repeat;
     background-size: contain;
+    width: 100vw;
+    height: 50dvh;
+}
 
+}
+
+
+
+@media (min-width:800px) and  (max-height:480px) {
+    header { 
+    width: 100vw;
+    height: 100dvh;
+}
+
+}
+
+@media (min-width:960px) and  (max-height:600px) {
+    header { 
+    width: 100vw;
+    height: 100dvh;
+}
+
+}
+
+
+@media (min-width:1024px) {
+    header {
+    width: 100vw;
+    height: 100dvh;
 }
 
 }
