@@ -5,8 +5,8 @@ import RenderImage  from '../components/RenderImage'
 const MainPage = () => {
   return (
     <main className='flex flex-col items-center justify-center md:items-start p-2'>
-        <Section style='flex flex-col items-center lg:flex-row justify-center mt-10 
-        lg:mt-[-10em]  xl:mt-[5rem] lg:pl-17 '>
+        <Section style='flex flex-col items-center lg:flex-row justify-center 
+        lg:pl-17 '>
            <figure className='tb:p-7 md:p-9 lg:p-10'>
                <RenderImage mobile={Images[16]} desk={Images[17]} type={1} /> 
            </figure>
@@ -21,7 +21,7 @@ const MainPage = () => {
         </Section>
 
         <Section style='flex flex-col  justify-center items-center xl:items-stretch
-         mt-10 lg:my-25 xl:mt-25 xl:mt-25 lg:pr-5 xl:pl-30 mb-10'>
+        lg:pr-5 xl:pl-30 mb-10'>
            <div className=' flex fle-col xl:flex-row xl:justify-between text-center items-center py-2 mb-5'> 
                <h2 className='text-3xl xl:text-[3.5rem] flex '>Our Creations</h2> 
                <button className='hidden  xl:flex border-2 px-4 py-1.5 hover:bg-black hover:text-white'>SEE ALL</button>
