@@ -21,7 +21,7 @@ const MainPage = () => {
         </Section>
 
         <Section style='flex flex-col my-5 justify-center items-center xl:items-stretch
-        lg:pr-5 xl:pl-30 mb-10 relative xl:mt-20  place-items-center'>
+        lg:pr-5  mb-10 relative xl:mt-20  place-items-center'>
            <div className=' flex fle-col xl:flex-row xl:justify-between text-center items-center py-2 mb-5 xl:px-30'> 
                <h2 className='text-3xl xl:text-[3.5rem] flex '>Our Creations</h2> 
                <button className='hidden  xl:flex border-2 px-4 py-1.5 hover:bg-black hover:text-white'>SEE ALL</button>
