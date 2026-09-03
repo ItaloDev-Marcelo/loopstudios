@@ -1,8 +1,8 @@
 import { render, screen} from '@testing-library/react';
-import MainPage from '../MainPage'
+import Main from '../Main'
 
 const renderComponent = () => {
-    render(<MainPage/>)
+    render(<Main/>)
 }
 
 
