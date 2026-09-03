@@ -16,9 +16,15 @@ import MobilePocket from '../assets/images/mobile/image-pocket-borealis.jpg';
 import DeskPocket from '../assets/images/desktop/image-pocket-borealis.jpg';
 import MobileSoccer from '../assets/images/mobile/image-soccer-team.jpg';
 import DeskSoccer from '../assets/images/desktop/image-soccer-team.jpg';
+import Facebook from '../assets/images/icon-facebook.svg';
+import Twitter from '../assets/images/icon-twitter.svg'
+import Pinterest from '../assets/images/icon-pinterest.svg'
+import Instagram from '../assets/images/icon-instagram.svg';
+import Close from '../assets/images/icon-close.svg';
+import Hamburger from '../assets/images/icon-hamburger.svg';
+import Logo from '../assets/images/logo.svg'
 
-
-export const Images = [
+export  {
     MobileDeepEath,
     DeskDeepEath,
     MobileNight,
@@ -36,57 +42,12 @@ export const Images = [
     Mobilefisheye ,
     Deskfisheye,
     MobileInteractive ,
-    DeskInteractive 
-]
-
-
-export const Data = [
-    {
-        id: 0,
-        mobile:Images[0],
-        desk:Images[1],
-        title: 'DEEP EARTH'
-    },
-     {
-        id: 1,
-        mobile:Images[2],
-        desk:Images[3],
-        title: 'NIGHT ARCADE'
-    },
-     {
-        id: 2,
-        mobile:Images[4],
-        desk:Images[5],
-        title: 'SOCCER TEAM VR'
-    },
-     {
-        id: 3,
-        mobile:Images[6],
-        desk:Images[7],
-        title: 'THE GRID'
-    },
-    {
-        id: 5,
-        mobile:Images[8],
-        desk:Images[9],
-        title: 'FROM UP ABOVE VR'
-    },
-    {
-        id: 6,
-        mobile:Images[10],
-        desk:Images[11],
-        title: 'POCKET BOREALIS'
-    },
-    {
-        id: 7,
-        mobile:Images[12],
-        desk:Images[13],
-        title: 'THE CURIOSITY'
-    },
-    {
-        id: 7,
-        mobile:Images[14],
-        desk:Images[15],
-        title: 'MAKE IT FISHEYE'
-    }
-]
+    DeskInteractive,
+    Facebook, 
+    Twitter,
+    Pinterest,
+    Instagram,
+    Close,
+    Hamburger,
+    Logo
+}
