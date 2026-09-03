@@ -1,4 +1,4 @@
-import FullPage from './pages/FullPage'
+import FullPage from './components/layout/Home'
 function App() {
    return (
       <FullPage />
