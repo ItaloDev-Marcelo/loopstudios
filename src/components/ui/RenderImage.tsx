@@ -1,0 +1,24 @@
+import type { RenderImageProps } from "../../shared/types/RenderImageProps"
+
+const RenderImage = ({mobile,desk, type}:RenderImageProps ) => {
+     switch (type) {
+     case 0:
+      return (
+        <>
+          <img src={mobile} alt='mobile-card-image' className='md:hidden hover:opacity-75' />
+          <img src={desk} alt='desk-card-image' className='hidden md:flex h-110 hover:opacity-75' />
+        </>
+      )
+      break
+     case 1: 
+       return (
+        <>
+           <img src={mobile} alt='banner' className='lg:hidden' />
+           <img src={desk} alt='banner' className='hidden lg:flex w-[87%] xl:w-[95%]'/>
+        </>
+       ) 
+  }
+  
+}
+
+export default RenderImage
