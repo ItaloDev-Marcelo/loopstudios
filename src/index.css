@@ -3,10 +3,10 @@
 @theme {
   --breakpoint-tb: 50rem;
   --breakpoint-tb1: 60rem;
+   --breakpoint-2xxl: 90rem;
 }
 
-
-body {
+body,html {
     overflow-x: hidden;
 }
 
@@ -16,7 +16,6 @@ header {
     width: 100dvw;
     height: 100dvh;
 }
-
 
 
 @media (min-width:700px) {
@@ -29,17 +28,7 @@ header {
 
 }
 
-
-
 @media (min-width:800px) and  (max-height:480px) {
-    header { 
-    width: 100vw;
-    height: 100dvh;
-}
-
-}
-
-@media (min-width:960px) and  (max-height:600px) {
     header { 
     width: 100vw;
     height: 100dvh;
@@ -50,8 +39,31 @@ header {
 
 @media (min-width:1024px) {
     header {
-    width: 100vw;
+    width: 100dvw;
     height: 100dvh;
 }
+
+li {
+    position: relative;
+}
+
+li > a:hover .line {
+    background: white;
+    width: 25px;
+    height: 3px;
+    position: absolute;
+    top: 30px;
+    left: 31%;
+}
+
+li > a:hover .line-2 {
+     display: block;
+}
+
+
+
+
+
+
 
 }
